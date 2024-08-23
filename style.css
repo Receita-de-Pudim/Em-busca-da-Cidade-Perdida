@@ -1,0 +1,35 @@
+body {
+    background-color: #694c2e;
+    color: whitesmoke;
+    font-family: "MedievalSharp", cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #7d542c;
+    color: whitesmoke;
+    font-family: "MedievalSharp", cursive;
+    font-size: 20px;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width:90%;
+}
